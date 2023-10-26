@@ -14,7 +14,8 @@ Plug 'preservim/tagbar'
 Plug 'preservim/nerdtree'
 
 " 컬러스킴
-Plug 'morhetz/gruvbox'
+Plug 'nanotech/jellybeans.vim'
+"Plug 'morhetz/gruvbox'
 
 " 하단에 다양한 상태(몇 번째 줄, 인코딩, etc.)를 
 " 표시하는 상태바 추가
@@ -161,7 +162,8 @@ if has("syntax")
 endif
 
 " 컬러스킴(문법 강조 색상) - 현재 monokai
-colorscheme gruvbox
+colorscheme jellybeans
+"colorscheme gruvbox
 
 " =========================================================================
 " =  하이라이트 정의                                                      =
